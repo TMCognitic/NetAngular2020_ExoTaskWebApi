@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="70937be8-7006-4e19-8888-133c525762e0" ChangeDateTime="10/26/2020 10:43:28">
+    <Property Name="ElementName" Value="[dbo].[TR_OnDleteTask]" />
+    <Property Name="ElementType" Value="SqlDmlTrigger" />
+    <Property Name="ParentElementName" Value="[dbo].[Task]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[TR_OnDeleteTask]" />
+  </Operation>
+</Operations>

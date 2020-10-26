@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ExoTaskWebApi.Models.Entities\ExoTaskWebApi.Models.Entities.csproj" />
+    <ProjectReference Include="..\ExoTaskWebApi.Models.Interfaces\ExoTaskWebApi.Models.Interfaces.csproj" />
+    <ProjectReference Include="..\Tools.Connection\Tools.Connection.csproj" />
+  </ItemGroup>
+
+</Project>
