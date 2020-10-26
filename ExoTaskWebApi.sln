@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_Models", "02_Models", "{209DF667-9A11-456F-8F99-B9F009E47C22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_Api", "04_Api", "{8987A6DC-8A6F-4EC6-862D-8F2FBFDD08E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_Console", "03_Console", "{802BF896-2A5E-4752-AE4B-2134AA33E0A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{541D36D2-C00C-4C3C-92C6-CE25AC4019E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05_Web", "05_Web", "{E388F552-1FD8-4666-94AF-B14671E98E49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Database", "01_Database", "{18366C45-11E6-4D85-90BB-365A15F6295B}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{802BF896-2A5E-4752-AE4B-2134AA33E0A9} = {541D36D2-C00C-4C3C-92C6-CE25AC4019E8}
+		{E388F552-1FD8-4666-94AF-B14671E98E49} = {541D36D2-C00C-4C3C-92C6-CE25AC4019E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A37CBB4-86FF-4141-A9AF-D0902B623CC6}
+	EndGlobalSection
+EndGlobal
