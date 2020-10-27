@@ -27,7 +27,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{36E317C8
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tools.Connection", "Tools.Connection\Tools.Connection.csproj", "{007A386B-460B-40F5-B34D-C77C7CD1D233}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRepository", "TestRepository\TestRepository.csproj", "{2B51595B-C0E8-4922-BAB1-3DF1AE763FCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestRepository", "TestRepository\TestRepository.csproj", "{2B51595B-C0E8-4922-BAB1-3DF1AE763FCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExoTaskWebApi.Api", "ExoTaskWebApi.Api\ExoTaskWebApi.Api.csproj", "{08BAED9D-3E2E-4125-8C6D-12CA39834758}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,10 @@ Global
 		{2B51595B-C0E8-4922-BAB1-3DF1AE763FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B51595B-C0E8-4922-BAB1-3DF1AE763FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B51595B-C0E8-4922-BAB1-3DF1AE763FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08BAED9D-3E2E-4125-8C6D-12CA39834758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08BAED9D-3E2E-4125-8C6D-12CA39834758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08BAED9D-3E2E-4125-8C6D-12CA39834758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08BAED9D-3E2E-4125-8C6D-12CA39834758}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +80,7 @@ Global
 		{3C5A63BB-DE0E-46D2-A378-3FA0C089BF78} = {209DF667-9A11-456F-8F99-B9F009E47C22}
 		{007A386B-460B-40F5-B34D-C77C7CD1D233} = {36E317C8-F840-49BE-B9B7-03FC41AA7710}
 		{2B51595B-C0E8-4922-BAB1-3DF1AE763FCD} = {802BF896-2A5E-4752-AE4B-2134AA33E0A9}
+		{08BAED9D-3E2E-4125-8C6D-12CA39834758} = {8987A6DC-8A6F-4EC6-862D-8F2FBFDD08E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A37CBB4-86FF-4141-A9AF-D0902B623CC6}

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ExoTaskWebApi.Models.Interfaces\ExoTaskWebApi.Models.Interfaces.csproj" />
+    <ProjectReference Include="..\ExoTaskWebApi.Models.Repositories\ExoTaskWebApi.Models.Repositories.csproj" />
+  </ItemGroup>
+
+
+</Project>
