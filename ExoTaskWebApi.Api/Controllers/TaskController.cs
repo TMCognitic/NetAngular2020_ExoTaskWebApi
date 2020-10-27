@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Net;
+using System.Reflection.Metadata.Ecma335;
+using ExoTaskWebApi.Api.Models;
 using ExoTaskWebApi.Models.Entities;
 using ExoTaskWebApi.Models.Interfaces;
 using ExoTaskWebApi.Models.Repositories;
@@ -33,16 +36,31 @@ namespace ExoTaskWebApi.Api.Controllers
 
         // POST api/Task
         [HttpPost]
-        public Task Post([FromBody] Task entity)
+        public IActionResult Post([FromBody] CreateTask entity)
         {
-            return _repository.Insert(entity);
+            if (ModelState.IsValid)
+            {
+                if (entity.Title.ToUpper().Contains("SEX"))
+                    return BadRequest(new { ErrorMessage = "Le titre contient des mots explicitement interdits par la bienséance" });
+
+                return Ok(_repository.Insert(new Task() { Title = entity.Title }));                
+            }
+            return BadRequest();
         }
 
         // PUT api/Task/5
         [HttpPut("{id}")]
-        public bool Put(int id, [FromBody] Task entity)
+        public IActionResult Put(int id, [FromBody] EditTask entity)
         {
-            return _repository.Update(id, entity);
+            if (ModelState.IsValid)
+            {
+                if (id != entity.Id)
+                    return Forbid();
+
+                return Ok(_repository.Update(id, new Task() { Title = entity.Title, Done = entity.Done }));
+            }
+
+            return BadRequest();
         }
 
         // DELETE api/Task/5
